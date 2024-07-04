@@ -15,8 +15,8 @@ header{
     color: var(--black);
     background-image: linear-gradient(to right, var(--purple), #cc41ff);
     border-radius: 15px;
-    border: 3px solid black;
-    box-shadow: -10px 10px 5px black;
+    border: 3px solid var(--black);
+    box-shadow: -10px 10px 5px var(--black);
 
 }
 
@@ -53,7 +53,18 @@ section{
     margin: 20px;
     background-image: linear-gradient(to right, #cc41ff, var(--purple));
     border-radius: 15px;
-    border: 3px solid black;
-    box-shadow: 10px 10px 5px black;
+    border: 3px solid var(--black);
+    box-shadow: 10px 10px 5px var(--black);
     flex-wrap: wrap;
+}
+
+section div{
+    display: flex;
+    height: 200px;
+    width: 200px;
+}
+
+#project-1{
+    width: 1000px;
+    background-color: white;
 }
