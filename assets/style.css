@@ -51,6 +51,10 @@ h2{
     font-size: 400%;
 }
 
+h3{
+    font-size: 250%;
+}
+
 section{
     display: flex;
     background-color: var(--purple);
@@ -65,6 +69,9 @@ section{
 section:hover{
     box-shadow: 5px 5px 5px var(--black) inset;
 }
+section:hover #project-1{
+    box-shadow: 0 5px 5px var(--black) inset;
+}
 
 section div{
     display: flex;
@@ -74,5 +81,8 @@ section div{
 
 #project-1{
     width: 800px;
-    background-color: white;
+    background-image: url(../images/jj-ying-7JX0-bfiuxQ-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
 }
