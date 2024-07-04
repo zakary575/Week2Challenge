@@ -1,0 +1,10 @@
+:root{
+    --purple: rgb(76, 14, 76)
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 300%;
+    background-color: var(--purple);
+    color: black;
+}
