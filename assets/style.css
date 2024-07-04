@@ -70,6 +70,10 @@ section:hover{
     box-shadow: 5px 5px 5px var(--black) inset;
 }
 
+section p{
+    display: flex;
+    font-size: 150%;
+}
 
 section div{
     display: flex;
