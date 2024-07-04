@@ -20,6 +20,10 @@ header{
 
 }
 
+header:hover{
+    box-shadow: 5px 5px 5px var(--black) inset;
+}
+
 header h1{
     font-size: 400%;
     display: inline-block;
@@ -58,6 +62,10 @@ section{
     flex-wrap: wrap;
 }
 
+section:hover{
+    box-shadow: 5px 5px 5px var(--black) inset;
+}
+
 section div{
     display: flex;
     height: 200px;
@@ -65,6 +73,6 @@ section div{
 }
 
 #project-1{
-    width: 1000px;
+    width: 800px;
     background-color: white;
 }
