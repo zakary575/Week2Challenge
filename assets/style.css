@@ -135,6 +135,12 @@ section ul li{
     font-size: 150%;
 }
 
+section p a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 footer{
     text-align: center;
 }
