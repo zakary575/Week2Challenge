@@ -10,6 +10,7 @@ body{
 }
 
 header{
+    display: flex;
     padding: 5px;
     background-color: var(--purple);
     color: var(--black);
@@ -17,6 +18,7 @@ header{
     border-radius: 15px;
     border: 3px solid var(--black);
     box-shadow: -10px 10px 5px var(--black);
+    justify-content: space-between;
 
 }
 
@@ -25,7 +27,7 @@ header:hover{
 }
 
 header h1{
-    font-size: 390%;
+    font-size: 400%;
     display: inline-block;
 }
 
@@ -92,7 +94,7 @@ section p{
 
 section div{
     display: flex;
-    margin: 10px;
+    margin: 1.5%;
 }
 
 #work{
@@ -100,7 +102,7 @@ section div{
 }
 
 #project-1{
-    width: 96%;
+    width: 100%;
     background-image: url(../images/jj-ying-7JX0-bfiuxQ-unsplash.jpg);
     background-size: cover;
     background-position: center;
@@ -164,13 +166,9 @@ footer{
 h4{
     font-size: 150%;
 }
-
+/* I did max width 1000 because that is where the nav bar would start acting weird this way it shifts to a column and keeps it from doing that */
 @media screen and (max-width: 1000px) {
     header nav ul li{
         display: block;
-    }
-    #project-1{
-        width: 400px;
-        height: 300px;
     }
 }
