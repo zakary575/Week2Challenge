@@ -50,6 +50,7 @@ a{
 h2{
     font-size: 400%;
     padding: 5px;
+    display: flex;
 }
 
 h3{
@@ -80,6 +81,14 @@ section:hover{
 section p{
     display: flex;
     font-size: 150%;
+    margin: 5px;
+}
+
+#projects{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 section div{
@@ -92,7 +101,8 @@ section div{
 }
 
 #project-1{
-    width: 400px;
+    width: 100%;
+    min-width: 820px;
     background-image: url(../images/jj-ying-7JX0-bfiuxQ-unsplash.jpg);
     background-size: cover;
     background-position: center;
@@ -100,7 +110,8 @@ section div{
 }
 
 #project-2{
-    width: 400px;
+    width: 48%;
+    min-width: 400px;
     background-image: url(../images/koushik-chowdavarapu-aWBPk_GBaCk-unsplash.jpg);
     background-size: cover;
     background-position: center;
@@ -108,15 +119,17 @@ section div{
 }
 
 #project-3{
-    width: 400px;
+    width: 48%;
+    min-width: 400px;
     background-image: url(../images/ricardo-gomez-angel-5YM26lUicfU-unsplash.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 10px;
 }
 
-#project-4{
-    width: 400px;
+#project-4{   
+    width: 48%;
+    min-width: 400px;
     background-image: url(../images/ryan-moreno-w1_4YH5IhDg-unsplash.jpg);
     background-size: cover;
     background-position: center;
@@ -124,11 +137,20 @@ section div{
 }
 
 #project-5{
-    width: 400px;
+    width: 48%;
+    min-width: 400px;
     background-image: url(../images/silvio-kundt-Fixg8KipOg8-unsplash.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 10px;
+}
+
+section div:hover{
+    box-shadow: 5px 5px 5px var(--black) inset;
+}
+
+#projects:hover{
+    box-shadow: 0 0 0 var(--black) inset;
 }
 
 section ul li{
@@ -147,4 +169,14 @@ footer{
 
 h4{
     font-size: 150%;
+}
+
+@media screen and (max-width: 1000px) {
+    header nav ul li{
+        display: block;
+    }
+    #project-1{
+        width: 400px;
+        height: 300px;
+    }
 }
