@@ -25,7 +25,7 @@ header:hover{
 }
 
 header h1{
-    font-size: 400%;
+    font-size: 390%;
     display: inline-block;
 }
 
@@ -86,9 +86,8 @@ section p{
 
 #projects{
     display: flex;
-    flex: 1;
+    flex: 1 1;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 section div{
@@ -101,8 +100,7 @@ section div{
 }
 
 #project-1{
-    width: 100%;
-    min-width: 820px;
+    width: 96%;
     background-image: url(../images/jj-ying-7JX0-bfiuxQ-unsplash.jpg);
     background-size: cover;
     background-position: center;
@@ -110,8 +108,7 @@ section div{
 }
 
 #project-2{
-    width: 48%;
-    min-width: 400px;
+    width: 47%;
     background-image: url(../images/koushik-chowdavarapu-aWBPk_GBaCk-unsplash.jpg);
     background-size: cover;
     background-position: center;
@@ -119,8 +116,7 @@ section div{
 }
 
 #project-3{
-    width: 48%;
-    min-width: 400px;
+    width: 47%;
     background-image: url(../images/ricardo-gomez-angel-5YM26lUicfU-unsplash.jpg);
     background-size: cover;
     background-position: center;
@@ -128,8 +124,7 @@ section div{
 }
 
 #project-4{   
-    width: 48%;
-    min-width: 400px;
+    width: 47%;
     background-image: url(../images/ryan-moreno-w1_4YH5IhDg-unsplash.jpg);
     background-size: cover;
     background-position: center;
@@ -137,8 +132,7 @@ section div{
 }
 
 #project-5{
-    width: 48%;
-    min-width: 400px;
+    width: 47%;
     background-image: url(../images/silvio-kundt-Fixg8KipOg8-unsplash.jpg);
     background-size: cover;
     background-position: center;
