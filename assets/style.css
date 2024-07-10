@@ -84,6 +84,9 @@ section p{
     display: flex;
     font-size: 150%;
     margin: 5px;
+    flex-wrap: wrap;
+    flex: 1 1;
+    align-items: center;
 }
 
 #projects{
@@ -171,4 +174,12 @@ h4{
     header nav ul li{
         display: block;
     }
+}
+
+@media screen and (max-width: 776px){
+    section{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } 
 }
