@@ -87,6 +87,7 @@ section p{
     flex-wrap: wrap;
     flex: 1 1;
     align-items: center;
+    margin: 20px;
 }
 
 #projects{
@@ -98,6 +99,7 @@ section p{
 section div{
     display: flex;
     margin: 1.5%;
+    justify-content: center;
 }
 
 #work{
@@ -158,12 +160,12 @@ section div{
 
 }
 
-section div:hover{
-    box-shadow: 5px 5px 5px var(--black) inset;
+section a:hover{
+    box-shadow: 10px 10px 10px var(--black) inset;
 }
 
-#projects:hover{
-    box-shadow: 0 0 0 var(--black) inset;
+section ul{
+    align-items: center;
 }
 
 section ul li{
