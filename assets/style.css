@@ -19,7 +19,6 @@ header{
     border: 3px solid var(--black);
     box-shadow: -10px 10px 5px var(--black);
     justify-content: space-between;
-
 }
 
 header:hover{
@@ -51,7 +50,7 @@ a{
 
 h2{
     font-size: 400%;
-    padding: 5px;
+    padding: 10px;
     display: flex;
 }
 
@@ -162,6 +161,10 @@ section div{
 
 section a:hover{
     box-shadow: 10px 10px 10px var(--black) inset;
+}
+
+section p a:hover{
+    box-shadow: 0 0 0 var(--black) inset;
 }
 
 section ul{
