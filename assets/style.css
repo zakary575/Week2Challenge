@@ -73,6 +73,14 @@ section{
     flex-wrap: wrap;
 }
 
+section img{
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    align-items: center;
+    margin: 20px;
+}
+
 section:hover{
     box-shadow: 5px 5px 5px var(--black) inset;
 }
