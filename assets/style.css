@@ -3,12 +3,15 @@
     --black: black
 }
 
+/* Stylings for the whole website */
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
     background-color: #05bbaa;
 }
 
+
+/* styling  for the header*/
 header{
     display: flex;
     padding: 5px;
@@ -21,15 +24,19 @@ header{
     justify-content: space-between;
 }
 
+/* add a hover effect that makes the header look like it is pressed in when you are hovering it */
 header:hover{
     box-shadow: 5px 5px 5px var(--black) inset;
 }
 
+/* Sytling for Zakary Johnson */
 header h1{
     font-size: 400%;
     display: inline-block;
 }
 
+
+/* stylings for the navigation bar */
 header nav{
     float: right;
 }
@@ -48,6 +55,7 @@ a{
     font-size: 200%;
 }
 
+/* h1 and h2 stylings */
 h2{
     font-size: 400%;
     padding: 10px;
@@ -62,6 +70,7 @@ h3{
     text-align: center;
 }
 
+/* made all the sections purple containers with a box shadow and a box radius */
 section{
     display: flex;
     background-color: var(--purple);
@@ -73,6 +82,7 @@ section{
     flex-wrap: wrap;
 }
 
+/* styling for the profile picture */
 section img{
     display: flex;
     justify-content: center;
@@ -81,6 +91,7 @@ section img{
     margin: 20px;
 }
 
+/* made the sections look like they are being pressed in when you hover them */
 section:hover{
     box-shadow: 5px 5px 5px var(--black) inset;
 }
@@ -97,27 +108,27 @@ section p{
     margin: 20px;
 }
 
+/* Styling for the container holding all the projects */
 #projects{
     display: flex;
     flex: 1 1;
     flex-wrap: wrap;
 }
 
+/* gave all the projects flexboxes with a margin and centered */
 section div{
     display: flex;
     margin: 1.5%;
     justify-content: center;
 }
 
-#work{
-    display: grid;
-}
-
+/* made the link to the projects have no styling */
 #projects a{
     text-decoration: none;
     font-size: 100%;
 }
 
+/* assigned the background image for all the projects */
 #project-1{
     width: 100%;
     background-image: url(../images/jj-ying-7JX0-bfiuxQ-unsplash.jpg);
@@ -167,14 +178,17 @@ section div{
 
 }
 
+/* added a hover effect for the projects */
 section a:hover{
     box-shadow: 10px 10px 10px var(--black) inset;
 }
 
+/* removed the unintended hover effect for the resume */
 section p a:hover{
     box-shadow: 0 0 0 var(--black) inset;
 }
 
+/* centered the contact information */
 section ul{
     align-items: center;
 }
@@ -189,10 +203,12 @@ section p a{
     align-items: center;
 }
 
+/* centered the footer */
 footer{
     text-align: center;
 }
 
+/* styled h4 */
 h4{
     font-size: 150%;
 }
@@ -203,6 +219,7 @@ h4{
     }
 }
 
+/* media query to change the sections to columns when the browser is smaller */
 @media screen and (max-width: 776px){
     section{
         flex-direction: column;
